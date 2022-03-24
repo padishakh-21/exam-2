@@ -1,0 +1,56 @@
+.simple {
+    background-image: url(../../img/round.svg);
+    padding: 140px 0;
+    background-repeat: no-repeat;
+    background-size: 679px;
+    background-position: calc(50% + 574px);
+}
+
+.simple__simple-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.simple__simple-inner {
+    width: 445px;
+}
+
+.simple__simple-heading {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0;
+    letter-spacing: -0.369231px;
+    color: rgb(54, 83, 107);
+}
+
+.simple__simple-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0;
+    color: rgb(108, 130, 148);
+}
+
+.simple__simple-inner-div {
+    display: flex;
+}
+
+.simple-inner__simple-img {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    .simple {
+        background-image: none;
+    }
+    .simple__simple-wrapper {
+        flex-direction: column-reverse;
+    }
+    .simple__simple-inner {
+        width: fit-content;
+        text-align: center;
+    }
+}

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans";
+    background-color: #edf3f8;
+    background-image: url(../img/round.svg);
+    background-position: calc(50% + 450px) calc(0% - 170px);
+    background-repeat: no-repeat;
+    background-size: 642px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-size: 949px;
+        background-position: 50% calc(0% - 670px);
+    }
+}
